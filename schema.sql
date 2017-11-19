@@ -1,3 +1,5 @@
+PRAGMA journal_mode=WAL;
+
 CREATE TABLE tweets (
 id text not null primary key,
 status text not null,
